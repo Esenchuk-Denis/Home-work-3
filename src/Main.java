@@ -39,9 +39,9 @@ public class Main {
         int Age = 6;
         if (Age >= 2 && Age < 7) {
             System.out.println("Если возраст человека равен " + Age + ", то ему нужно ходить в детский сад");
-        } else if (Age >= 7 && Age < 17) {
+        } else if (Age >= 7 && Age < 18) {
             System.out.println("Если возраст человека равен " + Age + ", то ему нужно ходить в школу");
-        } else if (Age >= 17 && Age <= 24) {
+        } else if (Age >= 18 && Age <= 24) {
             System.out.println("Если возраст человека равен " + Age + ", то ему нужно ходить в университет");
         } else if (Age > 24) {
             System.out.println("Если возраст человека равен " + Age + ", то ему нужно ходить на работу");
@@ -83,14 +83,14 @@ public class Main {
         System.out.println("Task 7");
         int one = 13;
         int two = 42;
-        int tree = 12;
+        int three = 12;
 
-        if (one > two && one > tree) {
+        if (one > two && one > three) {
             System.out.println("Большее число " + one);
-        } else if (two > one && two > tree) {
+        } else if (two > one && two > three) {
             System.out.println("Большее число " + two);
         } else {
-            System.out.println("Большее число " + tree);
+            System.out.println("Большее число " + three);
         }
 
 
